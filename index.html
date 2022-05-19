@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moveis</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Movies App</h1>
+
+        <div class="new2">
+            <form class="global-search">
+                <input class="global-input" id="text" type="text" name="text" required placeholder="Search movies"
+                    aria-label="Search movies" autocomplete="off" />
+            </form>
+
+            <select class="select" id="select-region">
+                <option class="select-option" value="filter-by-categories">
+                    Filter by Categories
+                </option>
+                <option class="select-option" value="documentary">Documentary</option>
+                <option class="select-option" value="music">Music</option>
+                <option class="select-option" value="drama">Drama</option>
+                <option class="select-option" value="animation">Animation</option>
+                <option class="select-option" value="comedy">Comedy</option>
+                <option class="select-option" value="family">Family</option>
+                <option class="select-option" value="sport">Sport</option>
+                <option class="select-option" value="fantasy">Fantasy</option>
+                <option class="select-option" value="romance">Romance</option>
+            </select>
+        </div>
+
+        <div class="movies-div row"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="movies.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.row {
+    gap: 17px;
+}
+
+.btn-primary {
+    margin-bottom: 10px;
+}
+
+.btn-a {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    margin: 0;
+}
+
+.global-search {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: auto;
+}
+
+.global-input {
+    padding: 5px 10px;
+}
+
+.new {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.new-img {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.new2 {
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    padding: 5px 10px;
+}
