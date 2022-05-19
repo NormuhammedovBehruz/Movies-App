@@ -4,7 +4,6 @@ const selectRegion = document.querySelector('#select-region')
 
 movies.forEach((movie) => {
     const div = document.createElement('div')
-    console.log(movie)
     div.classList.add('card')
     div.setAttribute('id', `${movie.title}`)
     div.setAttribute('data-set', `${movie.categories[0]}`)
@@ -49,7 +48,7 @@ selectRegion.addEventListener('change', () => {
     moviesDiv.forEach((div) => {
 
         const check = div.getAttribute('data-set').toLowerCase().includes(selectRegion.value.toLowerCase())
-    
+
         if (check) {
             div.style.display = 'block'
         } else {
